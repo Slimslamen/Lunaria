@@ -34,12 +34,46 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="workouts"
         options={{
-          title: 'Explore',
+          title: 'Workouts',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="progress"
+        options={{
+          title: 'progress',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="chevron.right" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="favourites"
+        options={{
+          title: 'Favourites',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="chevron.right" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="ai"
+        options={{
+          title: 'AI',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="chevron.right" color={color} />,
         }}
       />
     </Tabs>
   );
 }
+
+        // {/* Navigation */}
+        // <View style={styles.navigation}>
+        //   {['home', 'workouts', 'progress', 'favorites'].map(tab => (
+        //     <TouchableOpacity key={tab} onPress={() => setActiveTab(tab)} style={styles.navItem}>
+        //       {tab === 'home'}
+        //       {tab === 'workouts'}
+        //       {tab === 'progress'}
+        //       {tab === 'favorites'}
+        //       <Text style={styles.navText}>{tab.charAt(0).toUpperCase() + tab.slice(1)}</Text>
+        //     </TouchableOpacity>
+        //   ))}
+        // </View>
