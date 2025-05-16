@@ -24,3 +24,28 @@ export const Colors = {
     tabIconSelected: tintColorDark,
   },
 };
+
+  // lightest: {
+  //   text: '#11181C',
+  //   background :'#f5e6e6'
+  // },
+  // lighter: {
+  //   text: '#11181C',
+  //   background :'#e6c8c8'
+  // },
+  // light: {
+  //   text: '#11181C',
+  //   background :'#d2a5a5'
+  // },
+  // default: {
+  //   text: '#ECEDEE',
+  //   background: '#bf7d7d',
+  // },
+  // dark: {
+  //   text: '#ECEDEE',
+  //   background: '#965f5f',
+  // },
+  // darker: {
+  //   text: '#ECEDEE',
+  //   background: '#784b4b'
+  // }
